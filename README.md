@@ -30,10 +30,10 @@ cd task-tracker
 
 ### 2. Set up Database
 
-create local DB with : \n
-connections: tasks  \n
-DB: task\n
-check database in src/config/database \n
+- create local DB with :
+  - connections: tasks  
+  - DB: task\n
+- check database in src/config/database 
 ```js
 //..prev
 
