@@ -32,7 +32,7 @@ cd task-tracker
 
 - create local DB with :
   - connections: tasks  
-  - DB: task\n
+  - DB: task
 - check database in src/config/database 
 ```js
 //..prev
