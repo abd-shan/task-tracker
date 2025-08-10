@@ -28,7 +28,22 @@ git clone https://github.com/abd-shan/task-tracker.git
 cd task-tracker
 ```
 
-### 2. Set up the backend:
+### 2. Set up Database
+
+create local DB with : 
+connections: tasks
+DB: task
+check database in src/config/database
+```js
+//..prev
+
+            const MONGODB_URI = 'mongodb://localhost:27017/task';
+
+//rest..
+```
+
+
+### 3. Set up the backend:
 ```bash
 cd server
 npm install
@@ -37,7 +52,7 @@ echo "PORT=3000" >> .env
 echo "NODE_ENV=development" >> .env
 ```
 
-### 3. Set up the frontend:
+### 4. Set up the frontend:
 ```bash
 cd ../client
 npm install
